@@ -38,15 +38,15 @@ document.querySelector(".center")
  gsap.to(img,{
     y:"0",
     ease : Power1,
-    duration :.6,
+    duration :.4,
  });
  gsap.to(img,{
     y:"100%",
-    delay:.6,
+    delay:.4,
     ease: Power2,
    
  });
  setTimeout(function(){
     div.remove();
  }, 2000);
-}, 500));
+}, 200));

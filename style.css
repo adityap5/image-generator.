@@ -19,7 +19,7 @@ html,body{
 .imagediv{
     position: absolute;
     width: 200px;
-    height: 300px;
+    height: 280px;
     /* background-color:greenyellow ; */
     overflow: hidden;
 }
