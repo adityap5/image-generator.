@@ -28,11 +28,24 @@ document.querySelector(".center")
  div.style.left = dets.clientX+ 'px';
  div.style.top = dets.clientY + 'px';
 
- var img =document.createElement("image");
+ var img =document.createElement("img");
  img.setAttribute("src","https://images.unsplash.com/photo-1682687220015-186f63b8850a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Njh8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
  div.appendChild(img);
+
+
  document.body.appendChild(div);
- 
+
+ gsap.to(img,{
+    y:"0",
+    ease: Power3,
+    duration:.4,
+ });
+ gsap.to(img,{
+    y:"100",
+    delay:.4,
+    ease: Power3,
+    duration:.4,
+ });
  setTimeout(function(){
     div.remove();
  }, 700);
