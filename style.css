@@ -16,6 +16,14 @@ html,body{
     height: 500px;
     width: 900px
 }
+.center h1{
+    font-family: helvetica;
+    font-size:300px
+}
+.center h3{
+    font-family: helvetical;
+    font-size:100px
+}
 .imagediv{
     position: absolute;
     width: 200px;
