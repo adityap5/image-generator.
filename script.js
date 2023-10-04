@@ -29,7 +29,7 @@ document.querySelector(".center")
  div.style.top = dets.clientY + 'px';
 
  var img =document.createElement("img");
- img.setAttribute("src","https://images.unsplash.com/photo-1692544552858-1ca853c0eb67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8ODF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+ img.setAttribute("src","https://images.unsplash.com/photo-1629450646456-b7a01cdec01a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJtd3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
  div.appendChild(img);
 
 
@@ -38,15 +38,14 @@ document.querySelector(".center")
  gsap.to(img,{
     y:"0",
     ease : Power1,
-    duration :.4,
+    duration :.6,
  });
  gsap.to(img,{
     y:"100%",
-    delay:.4,
     ease: Power2,
-   
+    delay:.4,
  });
  setTimeout(function(){
     div.remove();
  }, 2000);
-}, 200));
+}, 400));

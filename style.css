@@ -6,22 +6,28 @@
 html,body{
     height:100%;
     width:100%;
+    background-color: #37a0e2;
 } 
 .center{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color:red;
+    
     height: 500px;
-    width: 900px
+    width: 900px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .center h1{
     font-family: helvetica;
     font-size:300px
 }
 .center h3{
-    font-family: helvetical;
+    text-transform:uppercase;
+    font-family: helvetica;
     font-size:100px
 }
 .imagediv{
